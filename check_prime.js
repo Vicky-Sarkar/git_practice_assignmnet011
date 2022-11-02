@@ -1,11 +1,11 @@
 
 //code writen by Vicky Sarkar
 
-function checkPrime(number)
+function checkPrime(number){
 let factor=0;
 for(let i=0;i<=number;i++){
 	if(number%i==0){
-		facaator++
+	     factor++
 	}
 
 	if(factor==2){
