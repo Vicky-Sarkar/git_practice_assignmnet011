@@ -3,9 +3,9 @@
 
 function checkPrime(number)
 let factor=0;
-for(let i=0;i<=number;i++){
+for(let i=1;i<=number;i++){
 	if(number%i==0){
-		facaator++
+		facator++
 	}
 
 	if(factor==2){
@@ -15,10 +15,11 @@ for(let i=0;i<=number;i++){
 	}
 }
 
-let ans=checkPrime(30)
+let number=30
+let ans=checkPrime(number)
 
 if(ans==true){
-console.log(ans," Is a Prime Number")
+console.log(number," Is a Prime Number")
 }else{
-	console.log(ans,"Is not a prime Number")
+	console.log(number,"Is not a prime Number")
 }
